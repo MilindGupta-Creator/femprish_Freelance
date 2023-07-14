@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        header {
+    background-color: #FEF4EA;
+    color: #f0f0f0;
+    padding: 10px;
+}
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+img{
+    height: 3rem;
+}
+    </style>
+    <link rel="stylesheet" type="text/css" href="contacts.css">
+</head>
+<body>
+    <header class="heading">
+        <img src="femprishlogo.png" alt="Femprish Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="wrapper">
+        <div class="container">
+          <div class="address">
+            <p>Working towards<br>equality for all <br> the belief in the social, political, <br> and economic equality</p>
+          </div>
+          <h1>Contact Us</h1>
+          <div class="thanks"><p>We'll be in touch soon,</p> </div>
+            <div class="pen"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+            <div class="row">
+                <label for="name">Your name:</label><br />
+            
+              <div class="inputwrap"><input id="name" class="input" name="name" type="text" value="" size="30"></input><div class="bar"></div></div<br />
+            
+            </div>
+            <div class="row">
+                <label for="email">Your email:</label><br /><div class="inputwrap">
+                <input id="email" class="input" name="email" type="text" value="" size="30" />
+            <div class="bar"></div></div>
+            <br />
+            </div>
+            <div class="row">
+                <label for="message">Your message:</label><br />
+                <div class="inputwrap"><input type="textarea" /><div class="bar"></div></div<br />
+            </div>
+          <div class="btnwrap"><input id="submit_button" type="submit" value="Submit it!" /></div>
+        </form>			
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
